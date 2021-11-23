@@ -1,5 +1,5 @@
-const sgMail = require('@sendgrid/mail')
-sgMail.setApiKey(process.env.SENDGRID_API_KEY)
+const sgMail = require('@s......./mail')
+sgMail.setApiKey(process.env.S.........)
 
 function sendEmailConfirmationHTML(customerName, orderNro){
     return `<!DOCTYPE html>
