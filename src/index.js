@@ -7,11 +7,11 @@ const port = 3000 || process.env.port
 //Librerias de sendgrid para enviar correos electronicos
 const email = require('./email')
 const sgMail = require('@sendgrid/mail')
-sgMail.setApiKey(process.env.SENDGRID_API_KEY)
+sgMail.setApiKey(process.env.S.......)
 
 // Librerias de twilio para mensajes de texto
-const accountSID = process.env.TWILIO_ACCOUNT_SID
-const authToken = process.env.TWILIO_AUTH_TOKEN
+const accountSID = process.env.T..........
+const authToken = process.env.T...........
 
 // para realizar pruebas con postman
 const app = express()
